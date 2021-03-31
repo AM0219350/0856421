@@ -2,6 +2,7 @@ dist: xenial
 language: java
 jdk:
   - oraclejdk11
+install: ant deps
 addons:
   apt:
     packages:

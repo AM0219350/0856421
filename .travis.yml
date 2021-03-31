@@ -1,7 +1,5 @@
 language: java
 jdk:
   - oraclejdk11
-script:
-  - java --version
-  - ./mvnw clean install
-  - ./mvnw test
+before_install:
+  - mvn clean install

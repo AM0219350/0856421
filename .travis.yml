@@ -2,4 +2,4 @@ language: java
 sudo: false
 jdk:
   - oraclejdk11
-script: mvn test -f ./source/pom.xml
+script: mvn install

@@ -4,4 +4,4 @@ jdk:
   - oraclejdk11
 script:  
   - mvn install
-  - java ./0856421/target/classes/PriorityQueueTest.class
+  - mvn compile

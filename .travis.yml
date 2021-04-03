@@ -5,4 +5,5 @@ jdk:
 install:  true
 script:  
   - mvn install
-  - java PriorityQueueTest
+  - ./mvnw clean install
+  - ./mvnw test

@@ -7,22 +7,10 @@
     <groupId>com.lovepoem</groupId>
     <artifactId>codecov-travis-maven-junit5-example</artifactId>
     <version>1.0-SNAPSHOT</version>
-<<<<<<< HEAD
     <modules>
         <module>codecov-test2</module>
     </modules>
     <packaging>pom</packaging>
-=======
-         
-    <dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.5.2</version>
-            <scope>Test</scope>
-        </dependency>
-    </dependencies>
->>>>>>> a946c22edfe814f84531be85aab81cb2671a3c5e
 
     <name>codecov-travis-maven-junit5-example</name>
     <url>https://github.com/lovepoem/codecov-travis-maven-junit5-example</url>

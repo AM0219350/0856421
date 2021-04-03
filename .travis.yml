@@ -2,5 +2,6 @@ language: java
 sudo: false
 jdk:
   - openjdk11
-script: true
+install: true
+script:
   - mvn install

@@ -4,5 +4,5 @@ jdk:
   - oraclejdk11
 install:  true
 script:  
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  mvn test -B
+  - mvn install
+  - mvn test -B

@@ -1,4 +1,4 @@
 # 0856421
 NYCU-Software_Testing Lab3
 
-https://drive.google.com/file/d/1bjwpHf29212mNh5-v82RMPEcyecRYuRx/view?usp=sharing
+[![Build Status](https://travis-ci.com/AM0219350/0856421.svg?branch=main)](https://travis-ci.com/AM0219350/0856421)

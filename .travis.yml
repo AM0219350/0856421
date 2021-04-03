@@ -5,4 +5,4 @@ jdk:
 install:  true
 script:  
   - mvn install
-  - java PriorityQueueTest.java
+  - java PriorityQueueTest

@@ -3,5 +3,3 @@ sudo: false
 jdk:
   - oraclejdk11
 script:  
-  - mvn install
-  - mvn compile

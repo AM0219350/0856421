@@ -1,11 +1,6 @@
 language: java
-sudo: false # faster builds
-
+sudo: false
 jdk:
   - openjdk11
-  - openjdk8 
-
 script:
-  - mvn clean package
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - mvn install

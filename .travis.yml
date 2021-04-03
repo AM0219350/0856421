@@ -1,6 +1,8 @@
 language: java
+sudo: false
 jdk:
   - oraclejdk11
 install:  true
 script:  
   - mvn install
+  - mvn clean verify

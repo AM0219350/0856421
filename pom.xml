@@ -23,7 +23,6 @@
         </dependency>
     </dependencies>
          
-    <build>
          <plugins>
               <plugin>
                      <groupId>org.apache.maven-plugins</groupId>
@@ -46,7 +45,6 @@
                      </configuration>
                   </plugin>                          
          </plugins>
-    </build>
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
